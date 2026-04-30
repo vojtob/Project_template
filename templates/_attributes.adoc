@@ -1,0 +1,13 @@
+// Spoločné AsciiDoc atribúty pre dokumenty z templates/.
+// Skopíruj tento súbor do modules/ROOT/partials/ a vlož do stránky cez:
+//   include::partial$_attributes.adoc[]
+
+:lang: sk
+:doctype: article
+:icons: font
+:source-highlighter: highlight.js
+:author: Vojtech Bálint
+:email: vojtech.balint@asseco-ce.com
+:organization: Asseco Central Europe
+:revnumber: 0.1
+:revdate: {docdate}

@@ -1,0 +1,11 @@
+= Project — Dokumentácia
+
+:doctype: book
+:toc: left
+:toclevels: 3
+:sectnums:
+:icons: font
+
+:pdf-mode:
+
+include::pages/index.adoc[leveloffset=+1]

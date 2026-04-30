@@ -1,0 +1,28 @@
+# Build output
+build/
+public/
+.cache/
+
+# Dependencies
+node_modules/
+
+# Package manager files
+.pnpm-store/
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# drawio backup files
+.\$*.drawio.bkp
+
+# Generated diagram outputs (ak generuješ do build/img_png/)
+# build/img_png/

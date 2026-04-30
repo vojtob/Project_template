@@ -1,0 +1,45 @@
+= ADR-<NNN>: <Krátky názov rozhodnutia>
+:author: Vojtech Bálint
+:revnumber: 0.1
+:revdate: {docdate}
+
+[cols="1,3", options="header"]
+|===
+| Pole | Hodnota
+
+| Status
+| `Návrh` \| `Schválený` \| `Zamietnutý` \| `Nahradený ADR-XXX`
+
+| Dátum
+| {docdate}
+
+| Vlastník
+| {author}
+
+| Súvisiace
+| ADR-…, HLD-…, koncept-…
+|===
+
+== Kontext
+
+Aký problém / aké rozhodnutie riešime. Aké sú obmedzenia, predpoklady, sily v hre.
+
+== Zvažované varianty
+
+. *Variant A* — popis, výhody, nevýhody.
+. *Variant B* — popis, výhody, nevýhody.
+. *Variant C* — popis, výhody, nevýhody.
+
+== Rozhodnutie
+
+Vybraný variant a krátke zdôvodnenie.
+
+== Dôsledky
+
+* Pozitívne: …
+* Negatívne / cena: …
+* Neutral / poznámky: …
+
+== Referencie
+
+* …

@@ -1,0 +1,61 @@
+ifndef::imagesdir[:imagesdir: ../images]
+
+= Požiadavky — <Oblasť / Modul>
+:author: Vojtech Bálint
+:revnumber: 0.1
+:revdate: {docdate}
+
+== Prehľad
+
+Stručný popis oblasti, do ktorej požiadavky patria.
+
+== Prioritizácia (MoSCoW)
+
+[cols="1,3", options="header"]
+|===
+| Priorita | Vysvetlenie
+
+| **Must** have +
+🟢 Nutné
+| Kritické pre úspech projektu, musia byť splnené.
+
+| **Should** have +
+🟡 Dôležité
+| Dôležité, ale nie kritické. Snaha realizovať, akceptácia s výhradou ak sa nepodarí.
+
+| **Could** have +
+🔴 Nice to have
+| Žiadané, ale nie nevyhnutné. Backlog.
+
+| **Won't** have +
+❌ Zamietnuté
+| V tejto fáze nerealizujeme.
+|===
+
+== Funkčné požiadavky
+
+[cols="1,1,3,1,2", options="header"]
+|===
+| ID | Priorita | Popis | Aktér | Akceptačné kritériá
+
+| REQ-001 | Must  | …      | …     | …
+| REQ-002 | Should| …      | …     | …
+|===
+
+== Nefunkčné požiadavky
+
+[cols="1,1,3,2", options="header"]
+|===
+| ID | Kategória | Popis | Meradlo
+
+| NFR-001 | Výkon       | …     | … ms p95
+| NFR-002 | Dostupnosť  | …     | 99.9 %
+| NFR-003 | Bezpečnosť  | …     | …
+|===
+
+== Vzťahy a závislosti
+
+Diagram vzťahov medzi požiadavkami / model požiadaviek.
+
+// .Model požiadaviek
+// image::Motivation/req-model.png[Model požiadaviek]

@@ -1,0 +1,48 @@
+ifndef::imagesdir[:imagesdir: ../images]
+
+= Low-Level Design — <Komponent / služba>
+:author: Vojtech Bálint
+:revnumber: 0.1
+:revdate: {docdate}
+
+== Účel
+
+Detailný návrh komponentu/služby pre implementáciu.
+
+== Vstupy
+
+Súvisiace HLD, požiadavky, ADR.
+
+== Statická štruktúra
+
+Triedy / moduly / package layout. Diagram tried, ER model.
+
+// .Trieda model
+// image::Application/lld-classes.png[Class diagram]
+
+== Dynamický pohľad
+
+Kľúčové sekvencie, stavové diagramy.
+
+// .Sekvencia: Vytvorenie podania
+// image::Application/lld-seq-create-submission.png[Sequence]
+
+== Dátový model
+
+Tabuľky, kľúče, vzťahy, indexy.
+
+== Rozhrania (API)
+
+Endpointy, kontrakty (OpenAPI link), error handling.
+
+== Konfigurácia a parametrizácia
+
+Premenné prostredia, feature flags.
+
+== Testovacia stratégia
+
+Unit / integration / e2e, pokrytie kľúčových scenárov.
+
+== Otvorené otázky
+
+* …

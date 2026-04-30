@@ -1,0 +1,8 @@
+ifndef::imagesdir[:imagesdir: ../images]
+
+= Project — Dokumentácia
+
+Sem napíš úvod k projektu.
+
+// Príklad vloženia obrázku (umiestni PNG do modules/ROOT/images/):
+// image::sample.png[Ukážkový diagram]

@@ -1,0 +1,27 @@
+# Antora Playbook
+# Generuje HTML site z komponentu 'concept' v docs/concept.
+
+site:
+  title: Project — Šablóna
+  start_page: concept::index.adoc
+
+content:
+  sources:
+    - url: .
+      branches: HEAD
+      start_path: docs/concept
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+
+output:
+  dir: ./build/site
+
+asciidoc:
+  attributes:
+    source-highlighter: highlight.js
+    icons: font
+    page-pagination: ''
+    lang: sk

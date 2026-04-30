@@ -1,0 +1,41 @@
+ifndef::imagesdir[:imagesdir: ../images]
+
+= <Názov konceptu>
+:author: Vojtech Bálint
+:revnumber: 0.1
+:revdate: {docdate}
+
+== Kontext
+
+Stručne popíš, prečo tento koncept vzniká a v akom prostredí.
+
+== Problém / motivácia
+
+Aký problém koncept rieši? Pre koho? S akými dôsledkami, ak ho neriešime?
+
+== Cieľ
+
+Čo chceme dosiahnuť. Merateľné kritériá úspechu.
+
+== Navrhované riešenie
+
+Vysokoúrovňový popis. Ak je viacero variantov, označ vybraný a stručne odôvodni.
+
+// Príklad diagramu:
+// .Architektúra konceptu
+// image::Application/concept-overview.png[Architektúra konceptu]
+
+== Dopady
+
+* Dopad na biznis procesy
+* Dopad na aplikácie / integrácie
+* Dopad na infraštruktúru
+* Dopad na ľudí / role
+
+== Otvorené otázky
+
+* …
+
+== Súvisiace dokumenty
+
+* xref:adr/...[Súvisiace ADR]

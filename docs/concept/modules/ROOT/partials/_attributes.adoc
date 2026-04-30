@@ -1,0 +1,12 @@
+// Spoločné AsciiDoc atribúty pre komponent 'concept'.
+// Vlož na začiatok stránky cez:  include::partial$_attributes.adoc[]
+
+:lang: sk
+:doctype: article
+:icons: font
+:source-highlighter: highlight.js
+:author: Vojtech Bálint
+:email: vojtech.balint@asseco-ce.com
+:organization: Asseco Central Europe
+:revnumber: 0.1
+:revdate: {docdate}

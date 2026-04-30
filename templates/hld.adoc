@@ -1,0 +1,55 @@
+ifndef::imagesdir[:imagesdir: ../images]
+
+= High-Level Design — <Názov>
+:author: Vojtech Bálint
+:revnumber: 0.1
+:revdate: {docdate}
+
+== Účel dokumentu
+
+Stručne popíš, čo HLD pokrýva a komu je určený.
+
+== Rozsah
+
+Čo je v rozsahu, čo nie je.
+
+== Architektonické princípy
+
+Krátke odvolanie sa na princípy, ktorými sa riadime (link na principles/index.adoc).
+
+== Biznis kontext
+
+Aktéri, hlavné scenáre, hodnotový tok.
+
+// .Biznis kontext
+// image::Business/hld-context.png[Biznis kontext]
+
+== Aplikačná architektúra
+
+Komponenty a ich zodpovednosti, integračné body.
+
+// .Aplikačná architektúra
+// image::Application/hld-application.png[Aplikačná architektúra]
+
+== Technologická architektúra
+
+Nasadenie, runtime, infraštruktúra.
+
+// .Deployment
+// image::Technology/hld-deployment.png[Deployment]
+
+== Bezpečnosť, compliance, NFR
+
+Autentifikácia, autorizácia, šifrovanie, GDPR, výkonnostné požiadavky, dostupnosť.
+
+== Riziká a obmedzenia
+
+* …
+
+== Architektonické rozhodnutia
+
+* xref:adr/...[ADR-NNN: …]
+
+== Otvorené otázky
+
+* …

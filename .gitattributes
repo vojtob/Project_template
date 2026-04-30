@@ -1,0 +1,42 @@
+# -----------------------------------------
+# Nastavenie diff/binary pre dokumentačný projekt
+# (vychádza zo SIA repozitára)
+# -----------------------------------------
+
+# AsciiDoc a textové súbory: normálny diff
+*.adoc text diff
+*.md   text diff
+*.txt  text diff
+*.yaml text diff
+*.yml  text diff
+*.json text diff
+
+# -----------------------------------------
+# Obrázky – binárne výstupy (bez diffu)
+# -----------------------------------------
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.svg  binary
+*.pdf  binary
+
+# Generované obrázky – zvyčajne v build/
+temp/* binary
+
+# -----------------------------------------
+# Zdrojové diagramy – textové formáty (chceme diff!)
+# -----------------------------------------
+*.drawio        text diff
+*.archimate     text diff
+*.archimate.xml text diff
+*.puml          text diff
+*.uml           text diff
+*.mmd           text diff
+*.uxf           text diff
+
+# -----------------------------------------
+# Voliteľné – Git LFS pre binárky
+# -----------------------------------------
+# *.png filter=lfs diff=lfs merge=lfs -text
+# *.svg filter=lfs diff=lfs merge=lfs -text
+# *.pdf filter=lfs diff=lfs merge=lfs -text
