@@ -1,7 +1,6 @@
 # Project template
 
-Šablóna pre architektonický / konceptuálny projekt v Asseco CE.
-Vychádza zo zvyklostí repozitárov **SIA**, **SIA_JVP** a **SIA_EKP**.
+Šablóna pre architektonický / konceptuálny projekt.
 
 ## Čo táto šablóna obsahuje
 
