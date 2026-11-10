@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "description": "Rozšírenia pre Antora build. asciidoctor-kroki 0.18.x je posledná verzia pre Antora 3.1 (Asciidoctor.js 2.2, Node 16 v obraze antora/antora).",
+  "dependencies": {
+    "asciidoctor-kroki": "^0.18.1"
+  }
+}

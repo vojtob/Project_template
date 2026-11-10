@@ -1,5 +1,7 @@
 # Antora Playbook
-# Generuje HTML site z komponentu 'concept' v docs/concept.
+# Generuje HTML site z komponentu 'concept'.
+# Číta zostavenú kópiu build/docs/concept (texty z docs/concept + PNG z docs/img),
+# ktorú pripraví scripts/build_site.sh. Antoru preto spúšťaj cez tento skript.
 
 site:
   title: Project — Šablóna
@@ -9,7 +11,7 @@ content:
   sources:
     - url: .
       branches: HEAD
-      start_path: docs/concept
+      start_path: build/docs/concept
 
 ui:
   bundle:
@@ -18,6 +20,8 @@ ui:
 
 output:
   dir: ./build/site
+  # Pred generovaním vymaže build/site, aby v ňom neostali staré stránky a obrázky.
+  clean: true
 
 asciidoc:
   attributes:
@@ -25,3 +29,20 @@ asciidoc:
     icons: font
     page-pagination: ''
     lang: sk
+    # Slovenské popisy generovaných prvkov (rovnaké sú v concept_pdf.adoc)
+    table-caption: Tabuľka
+    figure-caption: Obrázok
+    example-caption: Príklad
+    note-caption: Poznámka
+    tip-caption: Tip
+    important-caption: Dôležité
+    warning-caption: Upozornenie
+    caution-caption: Pozor
+    toc-title: Obsah
+    # Grafy a diagramy zapísané textom ([vegalite], [plantuml], ...) generuje lokálny
+    # Kroki server (scripts/kroki_start.sh). Obrázky sa stiahnu pri builde a uložia
+    # do webu, takže pri prezeraní Kroki netreba.
+    kroki-server-url: http://kroki:8000
+    kroki-fetch-diagram: true
+  extensions:
+    - asciidoctor-kroki

@@ -1,11 +1,23 @@
 = Project — Dokumentácia
-
 :doctype: book
+:lang: sk
 :toc: left
 :toclevels: 3
 :sectnums:
 :icons: font
-
 :pdf-mode:
+// Slovenské popisy generovaných prvkov (rovnaké sú v antora-playbook.yml)
+:toc-title: Obsah
+:chapter-signifier: Kapitola
+:table-caption: Tabuľka
+:figure-caption: Obrázok
+:example-caption: Príklad
+:note-caption: Poznámka
+:tip-caption: Tip
+:important-caption: Dôležité
+:warning-caption: Upozornenie
+:caution-caption: Pozor
+
+// Poradie zodpovedá nav.adoc.
 
 include::pages/index.adoc[leveloffset=+1]
